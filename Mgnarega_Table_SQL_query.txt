@@ -1,0 +1,61 @@
+**{1} project table
+
+mysql> create table project(
+     pid int primary key,
+     pname varchar(12) unique not null,
+     pcost varchar(12) not null,
+     pissuedate date not null
+     );
+Query OK, 0 rows affected (0.04 sec)
+
+-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-==-=
+
+**{2} create table GPM
+
+mmysql>  create table gpm(
+     gid int primary key,
+     gname varchar(12) not null,
+     gemail varchar(15) unique not null,
+     gpassword varchar(15) not null,
+     gmobile varchar(10) not null,
+     gaddress varchar(15) not null
+    );
+Query OK, 0 rows affected (0.03 sec)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-==--=-=-=-=-=-=-=-=-=-
+
+**{3} create project_employee;
+
+
+
+mysql> create table project_employee(
+     pid int,
+     eid int,
+     foreign key (pid) references project(pid),
+     foreign key (eid) references employee(eid)
+     );
+Query OK, 0 rows affected (0.04 sec)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-==--=-=-=-=-=-=-=-=-=-
+
+**{4} create employee
+
+
+mysql> create table employee(
+     eid int primary key,
+     ename varchar(12) not null,
+     emobile varchar(10),
+     eaddress varchar(15) not null,
+     etotaldaywork int,
+     ewages varchar(15)
+     );
+Query OK, 0 rows affected (0.02 sec)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-==--=-=-=-=-=-=-=-=-=-
+
+create table gpm_project(
+gid int,
+pid int,
+foreign key (pid)  references project (pid),
+foreign key (gid)  references gpm (gid)
+);
