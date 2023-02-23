@@ -6,4 +6,5 @@
  *
  */
 module MGNREGA {
+	requires java.sql;
 }
