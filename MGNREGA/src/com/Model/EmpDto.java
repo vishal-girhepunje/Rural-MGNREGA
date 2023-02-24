@@ -7,9 +7,8 @@ public class EmpDto {
 	private int ewages;
 	private String emobile;
 	private String eaddress;
-	public EmpDto() {
-		super();
-		// TODO Auto-generated constructor stub
+	public EmpDto(String n, String m, String a, int d, String w, String p) {
+		
 	}
 	public EmpDto(String ename, String pname, int etotaldaywork, int ewages, String emobile, String eaddress) {
 		super();

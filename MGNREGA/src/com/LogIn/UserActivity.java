@@ -44,7 +44,7 @@ public class UserActivity {
 			String username=sc.next();
 			System.out.println("Enter bdo password");
 			String password=sc.next();
-			if(username.equals("ahtisham@567") && password.equals("ahtisham567")) {
+			if(username.equals("vishal@gmail.com") && password.equals("vishal@123")) {
 				System.out.println("BDO login successful");
 				UserActivity.bdo();
 			}else {

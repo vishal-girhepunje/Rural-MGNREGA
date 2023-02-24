@@ -109,7 +109,7 @@ public class BDODaoImplement implements BDODao {
 				  String d=rs.getString("pissuedate");
 				
 				  
-				  Project project=new Project(r, n);
+				  Project project=new Project(r, n, c, d, r);
 				  
 				  projects.add(project);
 			  }
@@ -122,7 +122,7 @@ public class BDODaoImplement implements BDODao {
 	    if(projects.size()==0) 
 	    	throw new ProjectException("No Projects found....");
 	 
-	    return projects;
+	    return projects;  
 	}
 
 	@Override
