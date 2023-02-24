@@ -14,7 +14,7 @@ public class LoginInGPM {
 			
 			System.out.println("Enter Password:");
 			String pass = sc.next();
-			if(uname.equals("ahtisham@567") && pass.equals("ahtisham567")) {
+			if(uname.equals("vishal@gmail.com") && pass.equals("vishal@123")) {
 				System.out.println(" login successful");
 				UserActivity.gpm();
 			}else {
