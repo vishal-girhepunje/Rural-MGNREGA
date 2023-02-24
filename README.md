@@ -7,6 +7,15 @@ System works in the following way:
 A project is created by BDO. Project is where people are assigned to.
 Before assigning anybody to a project(done by Gram Panchayat member) his/her data must be inserted into the system.
 
+
+
+Important Credentials
+BDO
+
+Email_id - vishal@gmail.com
+
+Password - vishal@123
+
 Functions of BDO:
 1. Login into their account.
 2. Create a project.
@@ -17,21 +26,6 @@ Functions of BDO:
 7. See List of Employee working on that Project and their wages.
 
 
-Function of Gram Panchayet member:
-1. Login into their Account.
-2. Create Employee.
-3. View the Details of Employee.
-4. Assign Employee to a Project.
-5. View total number of days Employee worked in a project and also their wages.
-
-
-Important Credentials
-BDO
-
-Email_id - vishal@gmail.com
-
-Password - vishal@123
-
 GPM
 
 Email_id - vishal@gmail.com
@@ -40,3 +34,12 @@ Password - vishal@123
 
 Authors
 Vishal Girhepunje
+
+
+Function of Gram Panchayet member:
+1. Login into their Account.
+2. Create Employee.
+3. View the Details of Employee.
+4. Assign Employee to a Project.
+5. View total number of days Employee worked in a project and also their wages.
+
