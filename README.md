@@ -24,3 +24,19 @@ Function of Gram Panchayet member:
 4. Assign Employee to a Project.
 5. View total number of days Employee worked in a project and also their wages.
 
+
+Important Credentials
+BDO
+
+Email_id - vishal@gmail.com
+
+Password - vishal@123
+
+GPM
+
+Email_id - vishal@gmail.com
+
+Password - vishal@123
+
+Authors
+Vishal Girhepunje
