@@ -295,26 +295,25 @@ public class BDODaoImplement implements BDODao {
 	
 		try (Connection conn = DBUtils.ProvideConnection()){
 			
-			PreparedStatement ps= conn.prepareStatement("select e.ename, e.emobile,e.eaddress, e.etotaldaywork, e.ewages, p.pname from "
-					+ " employee e INNER JOIN project p INNER JOIN project_employee pe ON e.eid = "
-					+ "pe.eid AND p.pid = pe.pid AND p.pname= ?");
+			PreparedStatement ps= conn.prepareStatement("select e.eid, e.ename, e.emobile,e.eaddress, e.etotaldaywork, e.ewages, p.pname from"
+				     + "employee e INNER JOIN project p INNER JOIN project_employee pe ON e.eid ="+
+				     "pe.eid AND p.pid = pe.pid AND p.pname = ?");
 			
 			ps.setString(1, pname);
 			
 			ResultSet rs= ps.executeQuery();
 			
 			while(rs.next()) {
-				
+				int x = rs.getInt("e.id");
 				String n= rs.getString("e.ename");
 				String m= rs.getString("e.emobile");
-				
 				String a= rs.getString("e.eaddress");
 				int d= rs.getInt("e.etotaldaywork");
 				String w = rs.getString("e.ewages");
-				String p = rs.getString("p.pname");
+				int p = rs.getInt("e.pid");
 				
 				
-				EmpDto  ed=new EmpDto(pname, pname, d, d, m, a);
+				EmpDto ed = new EmpDto(x,n,m,a,d,w,p);
 				edtos.add(ed);
 				
 				

@@ -42,4 +42,3 @@ Function of Gram Panchayet member:
 3. View the Details of Employee.
 4. Assign Employee to a Project.
 5. View total number of days Employee worked in a project and also their wages.
-

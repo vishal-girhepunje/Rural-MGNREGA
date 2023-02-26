@@ -27,12 +27,12 @@ public class GetEmploeeByPNAme {
 			
 			dtos.forEach(dto -> {
 				System.out.println(dto);
-	//			System.out.println("name "+ dto.getEname());
-	//			System.out.println("Day_w "+ dto.getDayworked());
-	//			System.out.println("Eaddress "+ dto.getEaddress());
-	//			System.out.println("Emobile "+ dto.getEmobile());
-	//			System.out.println("pname "+ dto.getPname());
-	//			System.out.println("Ewages "+ dto.getEwages());
+				System.out.println("name "+ dto.getEname());
+				System.out.println("Day_w "+ dto.getEtotaldaywork());
+				System.out.println("Eaddress "+ dto.getEaddress());
+				System.out.println("Emobile "+ dto.getEmobile());
+				System.out.println("pname "+ dto.getPid());
+				System.out.println("Ewages "+ dto.getEwages());
 				System.out.println("****************************************")
 				;
 			});

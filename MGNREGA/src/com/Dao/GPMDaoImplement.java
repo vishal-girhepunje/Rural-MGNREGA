@@ -62,11 +62,14 @@ String message="Invalid Input !";
 		
 		try (Connection conn = DBUtils.ProvideConnection()){
 			
-			PreparedStatement ps = conn.prepareStatement("insert into employee(ename,eaddress,ephone,edate,ewage) values(?,?,?,curdate(),?)");
-			ps.setString(1, employee.getEname());
-			ps.setString(2, employee.getEaddress());
+			PreparedStatement ps = conn.prepareStatement("insert into employee values(?,?,?,?,?,?,?)");
+			ps.setInt(1, employee.getEid());
+			ps.setString(2, employee.getEname());
 			ps.setString(3, employee.getEmobile());
-			ps.setInt(4, employee.getEwages());
+			ps.setString(4, employee.getEaddress());
+			ps.setInt(5, employee.getEtotaldaywork());
+			ps.setString(6, employee.getEwages());
+			ps.setInt(7, employee.getPid());
 					
 			
 			int x = ps.executeUpdate();
