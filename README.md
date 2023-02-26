@@ -12,9 +12,9 @@ Before assigning anybody to a project(done by Gram Panchayat member) his/her dat
 Important Credentials
 BDO
 
-Email_id - vishal@gmail.com
+Email_id - vishal
 
-Password - vishal@123
+Password - 123
 
 Functions of BDO:
 1. Login into their account.
