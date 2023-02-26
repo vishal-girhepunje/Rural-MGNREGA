@@ -8,12 +8,12 @@ public class Employee {
     private int projectid;
     private int no_of_Day;
     private int wages;
+    
 	public Employee() {
-		super();
-		// TODO Auto-generated constructor stub
+		
 	}
+	
 	public Employee(int eid, String ename, String eage, String gender, int projectid, int no_of_Day, int wages) {
-		super();
 		this.eid = eid;
 		this.ename = ename;
 		this.eage = eage;

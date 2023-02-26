@@ -5,7 +5,7 @@ import java.util.Scanner;
 import com.LogIn.UserActivity;
 
 public class LoginInGPM {
-	public static void  LGpm() {
+	public static void  LGpm() throws Exception {
 		
 		Scanner sc= new Scanner(System.in);
 			

@@ -1,7 +1,7 @@
 package com.LogIn;
 
 public class Main {
-public static void main(String[] args) {		
+public static void main(String[] args) throws Exception {		
 		
 		// This is the main file
 		// Applications starts from here... 

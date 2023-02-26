@@ -14,7 +14,7 @@ import com.UI.RegisterGPM;
 
 public class UserActivity {
 
-	public static void selectUser() {
+	public static void selectUser() throws Exception {
 
 		Scanner sc = new Scanner(System.in);
 
@@ -44,7 +44,7 @@ public class UserActivity {
 			String username=sc.next();
 			System.out.println("Enter bdo password");
 			String password=sc.next();
-			if(username.equals("vishal@gmail.com") && password.equals("vishal@123")) {
+			if(username.equals("vishal") && password.equals("123")) {
 				System.out.println("BDO login successful");
 				UserActivity.bdo();
 			}else {
@@ -65,7 +65,7 @@ public class UserActivity {
 		}
 	}
 
-	public static void bdo() {
+	public static void bdo() throws Exception {
 		Scanner sc=new Scanner(System.in);
 		
 		System.out.println("1.  Create a project\r\n"
@@ -117,7 +117,7 @@ public class UserActivity {
 			
 	
 		}
-	public static void gpm() {
+	public static void gpm() throws Exception {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("	1. Register himself in a GPM with a username and password (email should be the username)\r\n"
 				         + "    2. Register Employee\r\n"
@@ -142,7 +142,7 @@ public class UserActivity {
 			
 			break;
 		case 2:
-			RegisterEmploye.LGpm1();
+			RegisterEmploye.LGpm();
 		
 			break;
 	
