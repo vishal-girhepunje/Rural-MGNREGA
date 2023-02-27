@@ -42,3 +42,58 @@ Function of Gram Panchayet member:
 3. View the Details of Employee.
 4. Assign Employee to a Project.
 5. View total number of days Employee worked in a project and also their wages.
+
+
+
++-----------------------+
+| Tables_in_aht_mgnrega |
++-----------------------+
+| employee              |
+| gpm                   |          |
+| project               |
+| project_employee      |
++-----------------------+
+
+Employee
+
++-------+--------+------------+----------+---------------+--------+
+| eid   | ename  | emobile    | eaddress | etotaldaywork | ewages |
++-------+--------+------------+----------+---------------+--------+
+|     1 | Vivek  | 9834196967 | Bhandara |            12 | 12000  |
+|    54 | gghgh  | 4512698564 | jhkkjg   |            45 | 251    |
+|   102 | nfkf   | 54546552   | jnnjkf   |            45 | 245    |
+|   206 | raghaw | 2356898956 | kamthi   |            54 | 560    |
+|   401 | fhjnj  | 4568792586 | klkkjkj  |            42 | 221    |
+|   456 | garima | 9595956577 | latur    |            54 | 540    |
+| 12121 | jhfkjs | 9856423258 | kjkiji   |            24 | 400    |
++-------+--------+------------+----------+---------------+--------+
+
+GPM
+
++-----+---------+----------------+-----------+------------+----------+
+| gid | gname   | gemail         | gpassword | gmobile    | gaddress |
++-----+---------+----------------+-----------+------------+----------+
+| 102 | vkfgg   | nggk@gmail.com | 64895     | 4568791456 | jjkjhjgh |
+| 124 | fgh     | df@mail.com    | 258       | 845698745  | fjdjhfk  |
+| 201 | subhash | subah@com      | 564       | 4565456558 | falguni  |
+| 401 | raghaw  | ghgh@gmail.com | 546       | 6547897535 | ljhgfdsg |
++-----+---------+----------------+-----------+------------+----------+
+
+Project
+
++------+--------+----------+------------+
+| pid  | pname  | pcost    | pissuedate |
++------+--------+----------+------------+
+|  101 | hghj   | 1200     | 2025-12-31 |
+|  152 | jhnjnh | 41564655 | 2054-04-23 |
+| 2001 | UDAN   | 25000CR  | 2025-02-23 |
++------+--------+----------+------------+
+
+Project_Employee
+
++------+------+
+| pid  | eid  |
++------+------+
+|  152 |   54 |
+|  101 |    1 |
++------+------+
