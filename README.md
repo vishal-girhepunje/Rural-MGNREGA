@@ -8,7 +8,7 @@ A project is created by BDO. Project is where people are assigned to.
 Before assigning anybody to a project(done by Gram Panchayat member) his/her data must be inserted into the system.
 
 
-
+<img src="https://user-images.githubusercontent.com/100846744/193421061-eb252b3b-d59f-43d4-8d67-1e1d486fb644.png" alt="">
 Important Credentials
 BDO
 
