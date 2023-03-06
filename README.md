@@ -44,7 +44,7 @@ Function of Gram Panchayet member:
 4. Assign Employee to a Project.
 5. View total number of days Employee worked in a project and also their wages.
 
-Flow Chart
+<h3>Flow Chart</h3>
 <img src="https://github.com/vishal-girhepunje/near-grade-564/blob/day_5/Flow_Chart.jpg?raw=true" alt="">
-ER-Diagram
+<h3>ER-Diagram</h3>
 <img src="https://raw.githubusercontent.com/vishal-girhepunje/near-grade-564/main/ER%20Diagram.jpg" alt="">
