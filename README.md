@@ -47,6 +47,34 @@ The MGNREGA was initiated with the objective of “enhancing livelihood security
 <p align="center">
   <img width="800"  src="https://github.com/vishal-girhepunje/near-grade-564/blob/main/flow_Project.png?raw=true">
 </p>
+<h2><<<<<<<<<<   BDO >>>>>>>>> </h2>
+
+Email_id - bdo
+
+Password - bdo
+
+Functions of BDO:
+1. Login into their account.
+2. Create a project.
+3. View List Of Project.
+4. Create new Gram Panchayat Member(GPM).
+5. View all the GPM.
+6. Allocate  Project to GPM
+7. See List of Employee working on that Project and their wages.
+
+<h2><<<<<<<<<<   GPM >>>>>>>>> </h2>
+
+Email_id - gpm
+
+Password - gpm
+
+Function of Gram Panchayet member:
+1. Login into their Account.
+2. Create Employee.
+3. View the Details of Employee.
+4. Assign Employee to a Project.
+5. View total number of days Employee worked in a project and also their wages.
+
 
 ## ER Diagram
 <p align="center">
@@ -97,40 +125,10 @@ The MGNREGA was initiated with the objective of “enhancing livelihood security
 # Contributor
 #### Vishal Girhepunje>[GitHub](https://github.com/vishal-girhepunje)
 
-<!-- /Vishal -->
-<!-- Important Credentials
->>>>>>> main
-BDO
-
-Email_id - bdo
-
-Password - bdo
-
-Functions of BDO:
-1. Login into their account.
-2. Create a project.
-3. View List Of Project.
-4. Create new Gram Panchayat Member(GPM).
-5. View all the GPM.
-6. Allocate  Project to GPM
-7. See List of Employee working on that Project and their wages.
-
-
-GPM
-
-Email_id - gpm
-
-Password - gpm
-
 Authors
 Vishal Girhepunje
 
+<!-- /Vishal -->
 
-Function of Gram Panchayet member:
-1. Login into their Account.
-2. Create Employee.
-3. View the Details of Employee.
-4. Assign Employee to a Project.
-5. View total number of days Employee worked in a project and also their wages.
 
 
