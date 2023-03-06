@@ -64,7 +64,38 @@
 <p align="center">
   <img width="800" src="">
 </p>
-<!--  Important Credentials
+
+## Logged in as GPM
+<p align="center">
+  <img width="800" src="">
+</p>
+ -->
+
+
+# Used Tech stacks and Tools 
+
+- Java
+- MySQL
+- Git & GitHub
+- JDBC
+- MySQL 8.0
+- Sprint tool suit 4
+
+
+
+# Feedback
+> Valuable feedback will be appreciated.
+
+> You can reach out to me via below medium.
+
+- [Linkedin](https://www.linkedin.com/in/vishal-girhepunje-688195196/)
+- [portfolio](https://github.com/vishal-girhepunje)
+
+# Contributor
+#### Vishal Girhepunje>[GitHub](https://github.com/vishal-girhepunje)
+
+<!-- /Vishal -->
+<!-- Important Credentials
 BDO
 
 Email_id - vishal
@@ -96,40 +127,9 @@ Function of Gram Panchayet member:
 2. Create Employee.
 3. View the Details of Employee.
 4. Assign Employee to a Project.
-5. View total number of days Employee worked in a project and also their wages.-->
-## Logged in as GPM
-<p align="center">
-  <img width="800" src="">
-</p>
- -->
+5. View total number of days Employee worked in a project and also their wages.
 
-
-# Used Tech stacks and Tools 
-
-- Java
-- MySQL
-- Git & GitHub
-- JDBC
-- MySQL 8.0
-- Sprint tool suit 4
-
-
-
-# Feedback
-> Valuable feedback will be appreciated.
-
-> You can reach out to me via below medium.
-
-- [Linkedin](https://www.linkedin.com/in/vishal-girhepunje-688195196/)
-- [portfolio](https://github.com/vishal-girhepunje)
-
-# Contributor
-#### Vishal Girhepunje>[GitHub](https://github.com/vishal-girhepunje)
-
-<!-- /Vishal -->
-
-
-<h3>Flow Chart</h3>
+<h3>Flow Chart</h3> -->
 <img src="https://github.com/vishal-girhepunje/near-grade-564/blob/day_5/Flow_Chart.jpg?raw=true" alt="">
 <h3>ER-Diagram</h3>
 <img src="https://raw.githubusercontent.com/vishal-girhepunje/near-grade-564/main/ER%20Diagram.jpg" alt="">
