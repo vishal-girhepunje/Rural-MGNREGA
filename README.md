@@ -1,15 +1,3 @@
-# near-grade-564   MGNREGA (Mini_Project_Console_Base)
-<img src="https://github.com/vishal-girhepunje/near-grade-564/blob/main/logo.png.jpg?raw=true" alt="">
-MNREGA(The Mahatma Gandhi National Rural Employment Guarantee Act ) is a scheme by which unskilled people of rural India are guaranteed to have 100 days of paid work. Main objective of this project is to manage employments offered through this scheme.There are two users of this system : 
-
-<h2> a. BDO (Block Development Officer) </h2>
- <h2>b. GPM (Gram Panchayat member)</h2>
-System works in the following way:
-A project is created by BDO. Project is where people are assigned to.
-Before assigning anybody to a project(done by Gram Panchayat member) his/her data must be inserted into the system.
-
-
-<!--  Binod    -->
 # MGNREGA
 
 <p align="center">
@@ -76,38 +64,7 @@ Before assigning anybody to a project(done by Gram Panchayat member) his/her dat
 <p align="center">
   <img width="800" src="">
 </p>
-
-## Logged in as GPM
-<p align="center">
-  <img width="800" src="">
-</p>
- -->
-
-
-# Used Tech stacks and Tools 
-
-- Java
-- MySQL
-- Git & GitHub
-- JDBC
-- MySQL 8.0
-- Sprint tool suit 4
-
-
-
-# Feedback
-> Valuable feedback will be appreciated.
-
-> You can reach out to me via below medium.
-
-- [Linkedin](https://www.linkedin.com/in/vishal-girhepunje-688195196/)
-- [portfolio](https://github.com/vishal-girhepunje)
-
-# Contributor
-#### Vishal Girhepunje>[GitHub](https://github.com/vishal-girhepunje)
-
-<!-- /Vishal -->
-Important Credentials
+<!--  Important Credentials
 BDO
 
 Email_id - vishal
@@ -139,7 +96,38 @@ Function of Gram Panchayet member:
 2. Create Employee.
 3. View the Details of Employee.
 4. Assign Employee to a Project.
-5. View total number of days Employee worked in a project and also their wages.
+5. View total number of days Employee worked in a project and also their wages.-->
+## Logged in as GPM
+<p align="center">
+  <img width="800" src="">
+</p>
+ -->
+
+
+# Used Tech stacks and Tools 
+
+- Java
+- MySQL
+- Git & GitHub
+- JDBC
+- MySQL 8.0
+- Sprint tool suit 4
+
+
+
+# Feedback
+> Valuable feedback will be appreciated.
+
+> You can reach out to me via below medium.
+
+- [Linkedin](https://www.linkedin.com/in/vishal-girhepunje-688195196/)
+- [portfolio](https://github.com/vishal-girhepunje)
+
+# Contributor
+#### Vishal Girhepunje>[GitHub](https://github.com/vishal-girhepunje)
+
+<!-- /Vishal -->
+
 
 <h3>Flow Chart</h3>
 <img src="https://github.com/vishal-girhepunje/near-grade-564/blob/day_5/Flow_Chart.jpg?raw=true" alt="">
