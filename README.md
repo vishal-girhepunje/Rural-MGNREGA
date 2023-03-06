@@ -1,15 +1,3 @@
-# near-grade-564   MGNREGA (Mini_Project_Console_Base)
-<img src="https://github.com/vishal-girhepunje/near-grade-564/blob/main/logo.png.jpg?raw=true" alt="">
-MNREGA(The Mahatma Gandhi National Rural Employment Guarantee Act ) is a scheme by which unskilled people of rural India are guaranteed to have 100 days of paid work. Main objective of this project is to manage employments offered through this scheme.There are two users of this system : 
-
-<h2> a. BDO (Block Development Officer) </h2>
- <h2>b. GPM (Gram Panchayat member)</h2>
-System works in the following way:
-A project is created by BDO. Project is where people are assigned to.
-Before assigning anybody to a project(done by Gram Panchayat member) his/her data must be inserted into the system.
-
-
-<!--  Binod    -->
 # MGNREGA
 
 <p align="center">
@@ -107,7 +95,7 @@ Before assigning anybody to a project(done by Gram Panchayat member) his/her dat
 #### Vishal Girhepunje>[GitHub](https://github.com/vishal-girhepunje)
 
 <!-- /Vishal -->
-Important Credentials
+<!-- Important Credentials
 BDO
 
 Email_id - vishal
@@ -144,4 +132,4 @@ Function of Gram Panchayet member:
 <h3>Flow Chart</h3>
 <img src="https://github.com/vishal-girhepunje/near-grade-564/blob/day_5/Flow_Chart.jpg?raw=true" alt="">
 <h3>ER-Diagram</h3>
-<img src="https://raw.githubusercontent.com/vishal-girhepunje/near-grade-564/main/ER%20Diagram.jpg" alt="">
+<img src="https://raw.githubusercontent.com/vishal-girhepunje/near-grade-564/main/ER%20Diagram.jpg" alt=""> -->
