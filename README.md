@@ -94,7 +94,7 @@
 > You can reach out to me via below medium.
 
 - [Linkedin](https://www.linkedin.com/in/vishal-girhepunje-688195196/)
-- [portfolio](https://github.com/vishal-girhepunje)
+- [portfolio](https://vishal-girhepunje.github.io/)
 
 # Contributor
 #### Vishal Girhepunje>[GitHub](https://github.com/vishal-girhepunje)
