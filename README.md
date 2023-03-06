@@ -45,6 +45,11 @@
 
 
 # Overview of My work 
+## FLOW OF PROJECT
+<p align="center">
+  <img width="800"  src="https://github.com/vishal-girhepunje/near-grade-564/blob/main/flow_Project.png?raw=true">
+</p>
+
 ## ER Diagram
 <p align="center">
   <img width="800"  src="https://raw.githubusercontent.com/vishal-girhepunje/near-grade-564/main/ER%20Diagram.jpg">
