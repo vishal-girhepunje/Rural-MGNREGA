@@ -13,16 +13,16 @@ Before assigning anybody to a project(done by Gram Panchayat member) his/her dat
 # MGNREGA
 
 <p align="center">
-  <img width="80%" src="https://raw.githubusercontent.com/Binodgith/MGNREGA/main/Materials/download2.jpg">
+  <img width="80%" src="https://github.com/vishal-girhepunje/near-grade-564/blob/main/MGNREGA.jpg?raw=true">
 </p
 
 
 >The MGNREGA was initiated with the objective of “enhancing livelihood security in rural areas by providing at least 100 days of guaranteed wage employment in a financial year, to every household whose adult members volunteer to do unskilled manual work”.
 
 >
-> a. BDO (Block Development Officer) 
+> a. Block Development Officer(BDO)
 >
-> b. Gram Panchayat member
+> b. Gram Panchayat member(GPM)
 > 
 > A project is created by BDO,which  is assigned to corresponding Gram panchayat Members. Gram Panchayat member has acccess to assign to Employees to Complete the Project.
 
@@ -30,7 +30,7 @@ Before assigning anybody to a project(done by Gram Panchayat member) his/her dat
 
 
 
-# MGNREGA - mushy-fairies-7744
+# MGNREGA - near-grade-564 
 
 > The MGNREGA is an java application designed to provide BDO and Gram Panchayat Member (GPM) of Block Office with a personalized easy-to-utilize user experience for creating, assigning and managing the project and employee . It stores GPM, Employee and project's data records, project assignments, wage/day, Total receivable amount till current date , and other information.
 >
@@ -39,7 +39,7 @@ Before assigning anybody to a project(done by Gram Panchayat member) his/her dat
 >Built application within four days.
 
 
-## 👉 ⎚ [Click here](https://drive.google.com/file/d/1oppZ82OmQeRCUgWXpXZeu1yPg_TVWUXb/view?usp=share_link) to Watch detail explaned Video of this application.
+## 👉 ⎚ [Click here](https://drive.google.com/file/d/1nKbPZpLb-N3EpLx0dEbmjWkHdbJM5c_V/view) to Watch detail explaned Video of this application.
 
 
 
@@ -59,29 +59,29 @@ Before assigning anybody to a project(done by Gram Panchayat member) his/her dat
 # Overview of My work 
 ## ER Diagram
 <p align="center">
-  <img width="800"  src="https://raw.githubusercontent.com/Binodgith/MGNREGA/main/Materials/ER%20Diagram.jpg">
+  <img width="800"  src="https://raw.githubusercontent.com/vishal-girhepunje/near-grade-564/main/ER%20Diagram.jpg">
 </p>
 
 
 ## Flow Chart
 <p align="center">
-  <img width="800" src="https://raw.githubusercontent.com/Binodgith/MGNREGA/main/Materials/Flow%20Chart.jpg">
+  <img width="800" src="https://github.com/vishal-girhepunje/near-grade-564/blob/day_5/Flow_Chart.jpg?raw=true">
 </p>
 
 
 
-# Screenshots of application 
+<!-- # Screenshots of application 
 
 ## Loged in as BDO
 <p align="center">
-  <img width="800" src="https://raw.githubusercontent.com/Binodgith/MGNREGA/main/Materials/BDO%20Login.jpg">
+  <img width="800" src="">
 </p>
 
 ## Logged in as GPM
 <p align="center">
-  <img width="800" src="https://raw.githubusercontent.com/Binodgith/MGNREGA/main/Materials/GPM%20Login.jpg">
+  <img width="800" src="">
 </p>
-
+ -->
 
 
 # Used Tech stacks and Tools 
@@ -100,14 +100,13 @@ Before assigning anybody to a project(done by Gram Panchayat member) his/her dat
 
 > You can reach out to me via below medium.
 
-- [Linkedin](https://www.linkedin.com/in/binod-dev/)
-- [portfolio](https://binodgith.github.io/)
+- [Linkedin](https://www.linkedin.com/in/vishal-girhepunje-688195196/)
+- [portfolio](https://github.com/vishal-girhepunje)
 
 # Contributor
-#### D Binod
->[GitHub](https://github.com/Binodgith/)
+#### Vishal Girhepunje>[GitHub](https://github.com/vishal-girhepunje)
 
-<!-- /Binod -->
+<!-- /Vishal -->
 Important Credentials
 BDO
 
