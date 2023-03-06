@@ -49,7 +49,7 @@ The MGNREGA was initiated with the objective of “enhancing livelihood security
 </p>
 <h2><<<<<<<<<<   BDO >>>>>>>>> </h2>
 
-Email_id - bdo
+User_Name - bdo
 
 Password - bdo
 
@@ -64,7 +64,7 @@ Functions of BDO:
 
 <h2><<<<<<<<<<   GPM >>>>>>>>> </h2>
 
-Email_id - gpm
+User_NAme - gpm
 
 Password - gpm
 
