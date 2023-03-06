@@ -46,3 +46,5 @@ Function of Gram Panchayet member:
 
 Flow Chart
 <img src="https://github.com/vishal-girhepunje/near-grade-564/blob/day_5/Flow_Chart.jpg?raw=true" alt="">
+ER-Diagram
+<img src="[https://github.com/vishal-girhepunje/near-grade-564/blob/day_5/Flow_Chart.jpg?raw=true](https://github.com/vishal-girhepunje/near-grade-564/blob/day_3/ER%20Diagram.jpg?raw=true)" alt="">
