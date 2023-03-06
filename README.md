@@ -125,7 +125,7 @@ Function of Gram Panchayet member:
 # Contributor
 #### Vishal Girhepunje>[GitHub](https://github.com/vishal-girhepunje)
 
-Authors
+Author
 Vishal Girhepunje
 
 <!-- /Vishal -->
