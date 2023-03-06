@@ -3,11 +3,8 @@
 <p align="center">
   <img width="80%" src="https://github.com/vishal-girhepunje/near-grade-564/blob/main/MGNREGA.jpg?raw=true">
 </p
-<<<<<<< day_5
 <img src="https://user-images.githubusercontent.com/100846744/193421061-eb252b3b-d59f-43d4-8d67-1e1d486fb644.png" alt="">
-Important Credentials
-=======
->The MGNREGA was initiated with the objective of “enhancing livelihood security in rural areas by providing at least 100 days of guaranteed wage employment in a financial year, to every household whose adult members volunteer to do unskilled manual work”.
+The MGNREGA was initiated with the objective of “enhancing livelihood security in rural areas by providing at least 100 days of guaranteed wage employment in a financial year, to every household whose adult members volunteer to do unskilled manual work.
 
 >
 > a. Block Development Officer(BDO)
@@ -27,13 +24,6 @@ Important Credentials
 >It is Console based Project.
 >
 >Built application within four days.
-<<<<<<< day_5
-=======
-<h3>Flow Chart</h3>
-<img src="https://github.com/vishal-girhepunje/near-grade-564/blob/day_5/Flow_Chart.jpg?raw=true" alt="">
-<h3>ER-Diagram</h3>
-<img src="https://raw.githubusercontent.com/vishal-girhepunje/near-grade-564/main/ER%20Diagram.jpg" alt=""> -->
->>>>>>> main
 
 ## 👉 ⎚ [Click here](https://drive.google.com/file/d/1nKbPZpLb-N3EpLx0dEbmjWkHdbJM5c_V/view) to Watch detail explaned Video of this application.
 
@@ -112,9 +102,9 @@ Important Credentials
 >>>>>>> main
 BDO
 
-Email_id - vishal
+Email_id - bdo
 
-Password - 123
+Password - bdo
 
 Functions of BDO:
 1. Login into their account.
@@ -128,9 +118,9 @@ Functions of BDO:
 
 GPM
 
-Email_id - vishal@gmail.com
+Email_id - gpm
 
-Password - vishal@123
+Password - gpm
 
 Authors
 Vishal Girhepunje
