@@ -16,9 +16,6 @@ The MGNREGA was initiated with the objective of “enhancing livelihood security
 
 
 
-
-# MGNREGA - near-grade-564 
-
 > The MGNREGA is an java application designed to provide BDO and Gram Panchayat Member (GPM) of Block Office with a personalized easy-to-utilize user experience for creating, assigning and managing the project and employee . It stores GPM, Employee and project's data records, project assignments, wage/day, Total receivable amount till current date , and other information.
 >
 >It is Console based Project.
