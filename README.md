@@ -30,7 +30,7 @@ The MGNREGA was initiated with the objective of “enhancing livelihood security
 
 - BDO and GPM can login and logout.
 - BDO can create Project and GPM provide their detail.
-- BDO can see the List of Project, GPM amd Employee's along with all the detail.
+- BDO can see the List of Project, GPM and Employee's along with all the detail.
 - BDO can assign project to GPM amd GPM can assign to Employee.
 - GPM can see the list of Employee and Amount receivable till date according to daily wage.
 - GPM can only assingn only those project which are assign to them by BDO.
