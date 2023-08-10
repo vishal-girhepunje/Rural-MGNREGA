@@ -5,45 +5,39 @@ import java.util.Scanner;
 
 import com.Dao.BDODao;
 import com.Dao.BDODaoImplement;
+import com.Dao.GPMDao;
+import com.Dao.GpmDaoImpl;
+import com.Exception.EmployeeException;
 import com.Model.EmpDTO;
+import com.Model.Employee;
 
 public class GetEmploeeByPNAme {
 	
-	public static void getEmplPname() {
+	public static void GetAllEmployee()  {
 		
-		
-		
-		
-		Scanner sc= new Scanner(System.in);
-		
-		System.out.println("Enter the Project Name");
-		
-		String cname= sc.next();
-
-		
-		BDODao dao = new BDODaoImplement();
+		GPMDao dao=new GpmDaoImpl();
 		
 		try {
-		List<EmpDTO> dtos= dao.getAllEmployeeByPname(cname);
-		
-		dtos.forEach(dto -> {
-			System.out.println(dto);
-			System.out.println("name "+ dto.getEname());
-			System.out.println("Day_w "+ dto.getDayworked());
-			System.out.println("Eaddress "+ dto.getEaddress());
-			System.out.println("Emobile "+ dto.getEmobile());
-			System.out.println("pname "+ dto.getPname());
-			System.out.println("Ewages "+ dto.getEwages());
-			System.out.println("****************************************")
-			;
-		});
-		
-		
-		}catch (Exception e) {
-			System.out.println(e.getMessage());
+			List<Employee> empl=dao.getAllEmployeeByGPM();
+			 
+			empl.forEach(s->{
+				
+				System.out.println("************************************");
+				
+				System.out.println("Employee Name: "+s.getEname());
+				System.out.println("Employee Mobile No: "+s.getEmobile());				
+				System.out.println("Employee Address:  "+s.getEaddress());
+				System.out.println("Employee TotalDay Work: "+s.getDayworked());
+				System.out.println("Emplolyee Wages: "+s.getEwages());
+				
+				System.out.println("************************************");
+			});
+			
+		} catch (EmployeeException e) {
+		     System.out.println(e.getMessage());
 		}
-
-	}
+	}	
 }
+	
 
 

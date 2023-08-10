@@ -4,7 +4,10 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
+import com.Exception.EmployeeException;
 import com.Exception.GPMException;
 import com.Model.Employee;
 import com.Model.GPM;
@@ -76,6 +79,43 @@ public class GpmDaoImpl implements GPMDao{
 		}
 	
 		return message;
+	}
+
+	@Override
+	public List<Employee> getAllEmployeeByGPM() throws EmployeeException {
+		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub
+				List<Employee> employees=new ArrayList<>();
+				
+
+				  try( Connection conn=DBUtil.provideConnection()) {
+					  PreparedStatement ps=conn.prepareStatement("select * from Employee");
+					  
+					  ResultSet rs=ps.executeQuery();
+					  while(rs.next()) {
+						  int ei=rs.getInt("eid");
+						  String en=rs.getString("ename");
+						  String em=rs.getString("emobile");
+						  String ea=rs.getString("eaddress");
+						  int etd=rs.getInt("etotaldaywork");
+						  int ew=rs.getInt("ewages");
+						
+						  
+						  Employee employee=new Employee(ei, en, em, ea, etd, ea);
+						  
+						  employees.add(employee);
+					  }
+					  
+					
+				} catch (SQLException e) {
+					throw new EmployeeException(e.getMessage());
+				}
+				  
+			    if(employees.size()==0) 
+			    	throw new EmployeeException("No Employee found....");
+			 
+			    
+				return employees;
 	}
 
 }

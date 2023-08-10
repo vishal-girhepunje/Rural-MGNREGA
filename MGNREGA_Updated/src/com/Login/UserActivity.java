@@ -144,7 +144,7 @@ public class UserActivity {
 	
 			
 		case 3:
-			GetEmploeeByPNAme.getEmplPname();
+			GetEmploeeByPNAme.GetAllEmployee();
 			break;
 		
 		

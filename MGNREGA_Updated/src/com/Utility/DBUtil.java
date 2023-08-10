@@ -17,7 +17,7 @@ public static Connection provideConnection() {
 			e.printStackTrace();
 		}
 		
-		String url="jdbc:mysql://localhost/aht_mgnrega";
+		String url="jdbc:mysql://localhost/mgnrega";
 		
 		try {
 			conn= DriverManager.getConnection(url,"root","6809");

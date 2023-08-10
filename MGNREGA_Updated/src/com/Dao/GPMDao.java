@@ -1,5 +1,8 @@
 package com.Dao;
 
+import java.util.List;
+
+import com.Exception.EmployeeException;
 import com.Exception.GPMException;
 import com.Model.Employee;
 import com.Model.GPM;
@@ -10,7 +13,7 @@ public interface GPMDao {
     
 	public String registerEmployee(Employee employee);
 
-//	public List<Employee> getAllGPM()throws EmployeeException;
+	public List<Employee> getAllEmployeeByGPM()throws EmployeeException;
 //	
 //	public String registerEmployeeToProject(int pid, int eid)throws ProjectException, EmployeeException ;
 //
