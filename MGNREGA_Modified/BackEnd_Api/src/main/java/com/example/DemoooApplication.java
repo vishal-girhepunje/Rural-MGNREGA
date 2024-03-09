@@ -23,10 +23,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 		@SecurityScheme(name = "basicAuth", type = SecuritySchemeType.HTTP, scheme = "basic"),
 		@SecurityScheme(name = "bearerToken", type = SecuritySchemeType.HTTP, scheme = "bearer", bearerFormat = "JWT")
 })
-public class MgnregaApplication {
+public class DemoooApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MgnregaApplication.class, args);
+		SpringApplication.run(DemoooApplication.class, args);
 	}
 
 }
