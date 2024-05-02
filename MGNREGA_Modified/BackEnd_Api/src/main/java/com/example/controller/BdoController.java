@@ -27,36 +27,6 @@ public class BdoController {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
-//    @Autowired
-//    private ProjectRepository projectRepository;
-
-//    @Autowired
-//    private BdoRepository repository;
-
-//    @PostMapping("/bdo/add")
-//    public ResponseEntity<BDO> addBDO(@RequestBody BDO bdo){
-//        BDO createdBDO = repository.save(bdo);
-//        return new ResponseEntity<>(createdBDO, HttpStatus.CREATED);
-//    }
-//
-//    @GetMapping("/bdo/all")
-//    public ResponseEntity<List<BDO>> getBDO() {
-//        List<BDO> bdos = repository.findAll();
-//        return new ResponseEntity<>(bdos, HttpStatus.OK);
-//    }
-
-//    @PostMapping("/bdo/project/add")
-//    public ResponseEntity<Project> addProject(@RequestBody Project project){
-//        Project createdProject = projectRepository.save(project);
-//        return new ResponseEntity<>(createdProject, HttpStatus.CREATED);
-//    }
-//
-//    @GetMapping("/bdo/project/all")
-//    public ResponseEntity<List<Project>> getProject(){
-//        List<Project> projects = projectRepository.findAll();
-//        return new ResponseEntity<>(projects, HttpStatus.CREATED);
-//    }
-
     @PostMapping("/bdo/project")
     public ResponseEntity<String> createProjectHandler(@Valid @RequestBody ProjectDTO projectDTO) {
         String msg = bdoService.createProject(projectDTO);
@@ -107,5 +77,35 @@ public class BdoController {
         List<WorkerDTO> workers = bdoService.showAllWorkersByProjectID(projectID);
         return new ResponseEntity<>(workers, HttpStatus.OK);
     }
+
+//    @Autowired
+//    private ProjectRepository projectRepository;
+
+//    @Autowired
+//    private BdoRepository repository;
+
+//    @PostMapping("/bdo/add")
+//    public ResponseEntity<BDO> addBDO(@RequestBody BDO bdo){
+//        BDO createdBDO = repository.save(bdo);
+//        return new ResponseEntity<>(createdBDO, HttpStatus.CREATED);
+//    }
+//
+//    @GetMapping("/bdo/all")
+//    public ResponseEntity<List<BDO>> getBDO() {
+//        List<BDO> bdos = repository.findAll();
+//        return new ResponseEntity<>(bdos, HttpStatus.OK);
+//    }
+
+//    @PostMapping("/bdo/project/add")
+//    public ResponseEntity<Project> addProject(@RequestBody Project project){
+//        Project createdProject = projectRepository.save(project);
+//        return new ResponseEntity<>(createdProject, HttpStatus.CREATED);
+//    }
+//
+//    @GetMapping("/bdo/project/all")
+//    public ResponseEntity<List<Project>> getProject(){
+//        List<Project> projects = projectRepository.findAll();
+//        return new ResponseEntity<>(projects, HttpStatus.CREATED);
+//    }
 
 }
