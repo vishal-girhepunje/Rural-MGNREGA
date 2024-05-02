@@ -22,21 +22,6 @@ public class GpmController {
     @Autowired
     private GpmService service;
 
-//    @Autowired
-//    private GpmRepository repository;
-
-//    @PostMapping("/add")
-//    public ResponseEntity<GPM> addGPM(@RequestBody GPM gpm){
-//        GPM createdGPM = repository.save(gpm);
-//        return new ResponseEntity<>(createdGPM, HttpStatus.CREATED);
-//    }
-//
-//    @GetMapping("/gpm")
-//    public ResponseEntity<List<GPM>> getGPM(){
-//        List<GPM> gpms = repository.findAll();
-//        return new ResponseEntity<>(gpms, HttpStatus.OK);
-//    }
-
     @GetMapping("/welcome")
     public String welcomeHandler() {
         return "Welcome to MGNRAGA application...";
@@ -97,5 +82,20 @@ public class GpmController {
         WorkerWagesDTO workerWagesDTO = service.getWorkerWorkingDaysAndWages(workerID);
         return new ResponseEntity<>(workerWagesDTO, HttpStatus.OK);
     }
+
+    //    @Autowired
+//    private GpmRepository repository;
+
+//    @PostMapping("/add")
+//    public ResponseEntity<GPM> addGPM(@RequestBody GPM gpm){
+//        GPM createdGPM = repository.save(gpm);
+//        return new ResponseEntity<>(createdGPM, HttpStatus.CREATED);
+//    }
+//
+//    @GetMapping("/gpm")
+//    public ResponseEntity<List<GPM>> getGPM(){
+//        List<GPM> gpms = repository.findAll();
+//        return new ResponseEntity<>(gpms, HttpStatus.OK);
+//    }
 
 }
